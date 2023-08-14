@@ -4,8 +4,9 @@ import dao.IDao;
 
 public class MetierImpl implements IMetier{
     //couplage faible
-    // on met =null car fire =new dao reviens a utiliser une classe donc couplage fort
-    private IDao dao=null;
+    // on met =null car fire =new  reviens a utiliser une classe donc couplage fort
+    //private IDao dao=null;
+    private IDao dao;
 
 
     @Override
